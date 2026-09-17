@@ -118,7 +118,7 @@
 - **scipy** —— 统计检验（t / 卡方 / 相关 / 回归）
 - **pymysql** —— 连接本地 MySQL `practice` 库
 - **面向对象设计** —— 分析流程封装为 `ProcurementAnalyzer` 类
-- SQL 练习统一连本地 MySQL `practice` 库（orders 表），不再依赖本地 SQLite 文件与离线数据库
+- **统一数据源** —— SQL 练习与统计模块共用 MySQL `practice` 库的 `orders` 表；仓库另附 `data/orders.csv`，便于无数据库环境下直接运行
 
 ---
 
