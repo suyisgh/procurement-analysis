@@ -1,0 +1,15 @@
+# Python 编译缓存
+__pycache__/
+*.pyc
+
+# 生成产物（由 main.py 重新生成）
+charts/
+
+# 可再生成的本地数据库（由 setup_sql.py 从 data/*.csv 生成）
+procurement.db
+
+# 本地配置（如含密码，勿提交）
+config.py
+
+# 旧备份
+README_原版备份.md
